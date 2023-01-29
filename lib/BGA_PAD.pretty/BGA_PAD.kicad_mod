@@ -1,0 +1,23 @@
+(footprint "BGA_PAD" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at -1.46 -3.9 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 882ac1e1-aa7e-4023-a0e3-9fa18b320ad9)
+  )
+  (fp_text value "BGA_PAD" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c33d78e7-d58b-4350-8266-f8b577b2d7c4)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b70a66f5-025f-4950-bbab-8bd9eaaee1d7)
+  )
+  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 327681d4-1101-4a42-9647-843deab75f43))
+  (model "${KIPRJMOD}/lib/BGA_PAD.pretty/Bearing Ball 6mm.step"
+    (offset (xyz 0 0 0.15))
+    (scale (xyz 0.18 0.18 0.18))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "W25Q16JVUXIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/lib/W25Q16JVUXIQ_TR")(options "")(descr ""))
+  (lib (name "RP2040")(type "KiCad")(uri "${KIPRJMOD}/lib/RP2040/RP2040.pretty")(options "")(descr ""))
+  (lib (name "BGA_PAD")(type "KiCad")(uri "${KIPRJMOD}/lib/BGA_PAD.pretty")(options "")(descr ""))
+)
